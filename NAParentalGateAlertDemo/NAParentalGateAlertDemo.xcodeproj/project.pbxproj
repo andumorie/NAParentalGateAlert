@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C4A877417FAF60700E88829 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A877617FAF60700E88829 /* NAViewController.xib */; };
+		5C5C0F0917FEE39C00D00BE5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C5C0F0817FEE39C00D00BE5 /* README.md */; };
+		5C5C0F0B17FEE3AC00D00BE5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5C5C0F0A17FEE3AC00D00BE5 /* LICENSE */; };
+		5C839FF817FB0B7500F35979 /* NAGatedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE017FB0B7500F35979 /* NAGatedVC.strings */; };
+		5C839FF917FB0B7500F35979 /* NAGatedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE017FB0B7500F35979 /* NAGatedVC.strings */; };
+		5C839FFA17FB0B7500F35979 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE217FB0B7500F35979 /* NAGatedVC.xib */; };
+		5C839FFB17FB0B7500F35979 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE217FB0B7500F35979 /* NAGatedVC.xib */; };
+		5C839FFC17FB0B7500F35979 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE417FB0B7500F35979 /* NAViewController.xib */; };
+		5C839FFD17FB0B7500F35979 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE417FB0B7500F35979 /* NAViewController.xib */; };
+		5C839FFE17FB0B7500F35979 /* NAGatedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE717FB0B7500F35979 /* NAGatedVC.strings */; };
+		5C839FFF17FB0B7500F35979 /* NAGatedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE717FB0B7500F35979 /* NAGatedVC.strings */; };
+		5C83A00017FB0B7500F35979 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE917FB0B7500F35979 /* NAGatedVC.xib */; };
+		5C83A00117FB0B7500F35979 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE917FB0B7500F35979 /* NAGatedVC.xib */; };
+		5C83A00217FB0B7500F35979 /* NAViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FEB17FB0B7500F35979 /* NAViewController.strings */; };
+		5C83A00317FB0B7500F35979 /* NAViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FEB17FB0B7500F35979 /* NAViewController.strings */; };
+		5C83A00417FB0B7500F35979 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FED17FB0B7500F35979 /* NAViewController.xib */; };
+		5C83A00517FB0B7500F35979 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FED17FB0B7500F35979 /* NAViewController.xib */; };
+		5C83A00617FB0B7500F35979 /* NAGatedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF017FB0B7500F35979 /* NAGatedVC.strings */; };
+		5C83A00717FB0B7500F35979 /* NAGatedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF017FB0B7500F35979 /* NAGatedVC.strings */; };
+		5C83A00817FB0B7500F35979 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF217FB0B7500F35979 /* NAGatedVC.xib */; };
+		5C83A00917FB0B7500F35979 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF217FB0B7500F35979 /* NAGatedVC.xib */; };
+		5C83A00A17FB0B7500F35979 /* NAViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF417FB0B7500F35979 /* NAViewController.strings */; };
+		5C83A00B17FB0B7500F35979 /* NAViewController.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF417FB0B7500F35979 /* NAViewController.strings */; };
+		5C83A00C17FB0B7500F35979 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF617FB0B7500F35979 /* NAViewController.xib */; };
+		5C83A00D17FB0B7500F35979 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF617FB0B7500F35979 /* NAViewController.xib */; };
+		5C9E321917FB0723006E1B22 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E321C17FB0723006E1B22 /* NAGatedVC.xib */; };
+		5C9E321A17FB0723006E1B22 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E321C17FB0723006E1B22 /* NAGatedVC.xib */; };
+		5CC45FDD17F992BA00E4B6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FDC17F992BA00E4B6F4 /* Foundation.framework */; };
+		5CC45FDF17F992BA00E4B6F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FDE17F992BA00E4B6F4 /* CoreGraphics.framework */; };
+		5CC45FE117F992BA00E4B6F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FE017F992BA00E4B6F4 /* UIKit.framework */; };
+		5CC45FE917F992BA00E4B6F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC45FE817F992BA00E4B6F4 /* main.m */; };
+		5CC45FED17F992BA00E4B6F4 /* NAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC45FEC17F992BA00E4B6F4 /* NAAppDelegate.m */; };
+		5CC45FF317F992BA00E4B6F4 /* NAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC45FF217F992BA00E4B6F4 /* NAViewController.m */; };
+		5CC45FF517F992BA00E4B6F4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5CC45FF417F992BA00E4B6F4 /* Images.xcassets */; };
+		5CC45FFC17F992BA00E4B6F4 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FFB17F992BA00E4B6F4 /* XCTest.framework */; };
+		5CC45FFD17F992BA00E4B6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FDC17F992BA00E4B6F4 /* Foundation.framework */; };
+		5CC45FFE17F992BA00E4B6F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FE017F992BA00E4B6F4 /* UIKit.framework */; };
+		5CC4600617F992BA00E4B6F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5CC4600417F992BA00E4B6F4 /* InfoPlist.strings */; };
+		5CC4600817F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC4600717F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.m */; };
+		5CCAC12117F9A1070012CA4B /* NAGatedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAC11F17F9A1070012CA4B /* NAGatedVC.m */; };
+		5CCAC12217F9A1070012CA4B /* NAGatedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAC11F17F9A1070012CA4B /* NAGatedVC.m */; };
+		5CF9495C17FDA0240029AC0A /* NAParentalGateAlert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CF9495717FDA0240029AC0A /* NAParentalGateAlert.bundle */; };
+		5CF9495D17FDA0240029AC0A /* NAParentalGateAlert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CF9495717FDA0240029AC0A /* NAParentalGateAlert.bundle */; };
+		5CF9495E17FDA0240029AC0A /* NAParentalGateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF9495917FDA0240029AC0A /* NAParentalGateAlert.m */; };
+		5CF9495F17FDA0240029AC0A /* NAParentalGateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF9495917FDA0240029AC0A /* NAParentalGateAlert.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5CC45FFF17F992BA00E4B6F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5CC45FD117F992B900E4B6F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CC45FD817F992BA00E4B6F4;
+			remoteInfo = NAParentalGateAlertDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C1E72A417FA3E86003D88B1 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C1E72A617FA3E8E003D88B1 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C4A877517FAF60700E88829 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NAViewController.xib; sourceTree = "<group>"; };
+		5C4A877717FAF60C00E88829 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/NAViewController.xib; sourceTree = "<group>"; };
+		5C4A877817FAF60D00E88829 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/NAViewController.xib; sourceTree = "<group>"; };
+		5C5C0F0817FEE39C00D00BE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5C5C0F0A17FEE3AC00D00BE5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5C839FE117FB0B7500F35979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = NAGatedVC.strings; sourceTree = "<group>"; };
+		5C839FE317FB0B7500F35979 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = NAGatedVC.xib; sourceTree = "<group>"; };
+		5C839FE517FB0B7500F35979 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = NAViewController.xib; sourceTree = "<group>"; };
+		5C839FE817FB0B7500F35979 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = NAGatedVC.strings; sourceTree = "<group>"; };
+		5C839FEA17FB0B7500F35979 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = NAGatedVC.xib; sourceTree = "<group>"; };
+		5C839FEC17FB0B7500F35979 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = NAViewController.strings; sourceTree = "<group>"; };
+		5C839FEE17FB0B7500F35979 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = NAViewController.xib; sourceTree = "<group>"; };
+		5C839FF117FB0B7500F35979 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = NAGatedVC.strings; sourceTree = "<group>"; };
+		5C839FF317FB0B7500F35979 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = NAGatedVC.xib; sourceTree = "<group>"; };
+		5C839FF517FB0B7500F35979 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = NAViewController.strings; sourceTree = "<group>"; };
+		5C839FF717FB0B7500F35979 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = NAViewController.xib; sourceTree = "<group>"; };
+		5C9E321B17FB0723006E1B22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NAGatedVC.xib; sourceTree = "<group>"; };
+		5C9E321D17FB0725006E1B22 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/NAGatedVC.xib; sourceTree = "<group>"; };
+		5C9E321E17FB0726006E1B22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/NAGatedVC.xib; sourceTree = "<group>"; };
+		5CC45FD917F992BA00E4B6F4 /* NAParentalGateAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAParentalGateAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC45FDC17F992BA00E4B6F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5CC45FDE17F992BA00E4B6F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5CC45FE017F992BA00E4B6F4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5CC45FE417F992BA00E4B6F4 /* NAParentalGateAlertDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAParentalGateAlertDemo-Info.plist"; sourceTree = "<group>"; };
+		5CC45FE817F992BA00E4B6F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5CC45FEA17F992BA00E4B6F4 /* NAParentalGateAlertDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NAParentalGateAlertDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5CC45FEB17F992BA00E4B6F4 /* NAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAAppDelegate.h; sourceTree = "<group>"; };
+		5CC45FEC17F992BA00E4B6F4 /* NAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAAppDelegate.m; sourceTree = "<group>"; };
+		5CC45FF117F992BA00E4B6F4 /* NAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NAViewController.h; sourceTree = "<group>"; };
+		5CC45FF217F992BA00E4B6F4 /* NAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAViewController.m; sourceTree = "<group>"; };
+		5CC45FF417F992BA00E4B6F4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5CC45FFA17F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NAParentalGateAlertDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CC45FFB17F992BA00E4B6F4 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5CC4600317F992BA00E4B6F4 /* NAParentalGateAlertDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NAParentalGateAlertDemoTests-Info.plist"; sourceTree = "<group>"; };
+		5CC4600517F992BA00E4B6F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5CC4600717F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NAParentalGateAlertDemoTests.m; sourceTree = "<group>"; };
+		5CCAC11E17F9A1070012CA4B /* NAGatedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAGatedVC.h; sourceTree = "<group>"; };
+		5CCAC11F17F9A1070012CA4B /* NAGatedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAGatedVC.m; sourceTree = "<group>"; };
+		5CEA639C17FD9557009B6467 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		5CF9495717FDA0240029AC0A /* NAParentalGateAlert.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NAParentalGateAlert.bundle; sourceTree = "<group>"; };
+		5CF9495817FDA0240029AC0A /* NAParentalGateAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAParentalGateAlert.h; sourceTree = "<group>"; };
+		5CF9495917FDA0240029AC0A /* NAParentalGateAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAParentalGateAlert.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CC45FD617F992BA00E4B6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC45FDF17F992BA00E4B6F4 /* CoreGraphics.framework in Frameworks */,
+				5CC45FE117F992BA00E4B6F4 /* UIKit.framework in Frameworks */,
+				5CC45FDD17F992BA00E4B6F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC45FF717F992BA00E4B6F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC45FFC17F992BA00E4B6F4 /* XCTest.framework in Frameworks */,
+				5CC45FFE17F992BA00E4B6F4 /* UIKit.framework in Frameworks */,
+				5CC45FFD17F992BA00E4B6F4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C839FDF17FB0B7500F35979 /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5C839FE017FB0B7500F35979 /* NAGatedVC.strings */,
+				5C839FE217FB0B7500F35979 /* NAGatedVC.xib */,
+				5C839FE417FB0B7500F35979 /* NAViewController.xib */,
+			);
+			path = en.lproj;
+			sourceTree = "<group>";
+		};
+		5C839FE617FB0B7500F35979 /* es.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5C839FE717FB0B7500F35979 /* NAGatedVC.strings */,
+				5C839FE917FB0B7500F35979 /* NAGatedVC.xib */,
+				5C839FEB17FB0B7500F35979 /* NAViewController.strings */,
+				5C839FED17FB0B7500F35979 /* NAViewController.xib */,
+			);
+			path = es.lproj;
+			sourceTree = "<group>";
+		};
+		5C839FEF17FB0B7500F35979 /* fr.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				5C839FF017FB0B7500F35979 /* NAGatedVC.strings */,
+				5C839FF217FB0B7500F35979 /* NAGatedVC.xib */,
+				5C839FF417FB0B7500F35979 /* NAViewController.strings */,
+				5C839FF617FB0B7500F35979 /* NAViewController.xib */,
+			);
+			path = fr.lproj;
+			sourceTree = "<group>";
+		};
+		5CC45FD017F992B900E4B6F4 = {
+			isa = PBXGroup;
+			children = (
+				5CC45FE217F992BA00E4B6F4 /* NAParentalGateAlertDemo */,
+				5CC4601117F9932600E4B6F4 /* libs */,
+				5CC4600117F992BA00E4B6F4 /* NAParentalGateAlertDemoTests */,
+				5CC45FDB17F992BA00E4B6F4 /* Frameworks */,
+				5CC45FDA17F992BA00E4B6F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CC45FDA17F992BA00E4B6F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CC45FD917F992BA00E4B6F4 /* NAParentalGateAlertDemo.app */,
+				5CC45FFA17F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5CC45FDB17F992BA00E4B6F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CC45FDC17F992BA00E4B6F4 /* Foundation.framework */,
+				5CC45FDE17F992BA00E4B6F4 /* CoreGraphics.framework */,
+				5CC45FE017F992BA00E4B6F4 /* UIKit.framework */,
+				5CC45FFB17F992BA00E4B6F4 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CC45FE217F992BA00E4B6F4 /* NAParentalGateAlertDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5CEA639C17FD9557009B6467 /* LICENSE.txt */,
+				5CC45FEB17F992BA00E4B6F4 /* NAAppDelegate.h */,
+				5CC45FEC17F992BA00E4B6F4 /* NAAppDelegate.m */,
+				5CC45FF117F992BA00E4B6F4 /* NAViewController.h */,
+				5CC45FF217F992BA00E4B6F4 /* NAViewController.m */,
+				5C4A877617FAF60700E88829 /* NAViewController.xib */,
+				5CCAC11E17F9A1070012CA4B /* NAGatedVC.h */,
+				5CCAC11F17F9A1070012CA4B /* NAGatedVC.m */,
+				5C9E321C17FB0723006E1B22 /* NAGatedVC.xib */,
+				5CC45FF417F992BA00E4B6F4 /* Images.xcassets */,
+				5CC45FE317F992BA00E4B6F4 /* Supporting Files */,
+			);
+			path = NAParentalGateAlertDemo;
+			sourceTree = "<group>";
+		};
+		5CC45FE317F992BA00E4B6F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C839FDF17FB0B7500F35979 /* en.lproj */,
+				5C839FE617FB0B7500F35979 /* es.lproj */,
+				5C839FEF17FB0B7500F35979 /* fr.lproj */,
+				5CC45FE417F992BA00E4B6F4 /* NAParentalGateAlertDemo-Info.plist */,
+				5CC45FE817F992BA00E4B6F4 /* main.m */,
+				5CC45FEA17F992BA00E4B6F4 /* NAParentalGateAlertDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC4600117F992BA00E4B6F4 /* NAParentalGateAlertDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				5CC4600717F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.m */,
+				5CC4600217F992BA00E4B6F4 /* Supporting Files */,
+			);
+			path = NAParentalGateAlertDemoTests;
+			sourceTree = "<group>";
+		};
+		5CC4600217F992BA00E4B6F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5CC4600317F992BA00E4B6F4 /* NAParentalGateAlertDemoTests-Info.plist */,
+				5CC4600417F992BA00E4B6F4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5CC4601117F9932600E4B6F4 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				5CF9495517FDA0240029AC0A /* NAParentalGateAlert */,
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		5CF9495517FDA0240029AC0A /* NAParentalGateAlert */ = {
+			isa = PBXGroup;
+			children = (
+				5C5C0F0A17FEE3AC00D00BE5 /* LICENSE */,
+				5C5C0F0817FEE39C00D00BE5 /* README.md */,
+				5CF9495717FDA0240029AC0A /* NAParentalGateAlert.bundle */,
+				5CF9495817FDA0240029AC0A /* NAParentalGateAlert.h */,
+				5CF9495917FDA0240029AC0A /* NAParentalGateAlert.m */,
+			);
+			name = NAParentalGateAlert;
+			path = ../../NAParentalGateAlert;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CC45FD817F992BA00E4B6F4 /* NAParentalGateAlertDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC4600B17F992BA00E4B6F4 /* Build configuration list for PBXNativeTarget "NAParentalGateAlertDemo" */;
+			buildPhases = (
+				5CC45FD517F992BA00E4B6F4 /* Sources */,
+				5CC45FD617F992BA00E4B6F4 /* Frameworks */,
+				5CC45FD717F992BA00E4B6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NAParentalGateAlertDemo;
+			productName = NAParentalGateAlertDemo;
+			productReference = 5CC45FD917F992BA00E4B6F4 /* NAParentalGateAlertDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5CC45FF917F992BA00E4B6F4 /* NAParentalGateAlertDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CC4600E17F992BA00E4B6F4 /* Build configuration list for PBXNativeTarget "NAParentalGateAlertDemoTests" */;
+			buildPhases = (
+				5CC45FF617F992BA00E4B6F4 /* Sources */,
+				5CC45FF717F992BA00E4B6F4 /* Frameworks */,
+				5CC45FF817F992BA00E4B6F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5CC4600017F992BA00E4B6F4 /* PBXTargetDependency */,
+			);
+			name = NAParentalGateAlertDemoTests;
+			productName = NAParentalGateAlertDemoTests;
+			productReference = 5CC45FFA17F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CC45FD117F992B900E4B6F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NA;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Natrosoft LLC";
+				TargetAttributes = {
+					5CC45FF917F992BA00E4B6F4 = {
+						TestTargetID = 5CC45FD817F992BA00E4B6F4;
+					};
+				};
+			};
+			buildConfigurationList = 5CC45FD417F992B900E4B6F4 /* Build configuration list for PBXProject "NAParentalGateAlertDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				fr,
+				es,
+			);
+			mainGroup = 5CC45FD017F992B900E4B6F4;
+			productRefGroup = 5CC45FDA17F992BA00E4B6F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CC45FD817F992BA00E4B6F4 /* NAParentalGateAlertDemo */,
+				5CC45FF917F992BA00E4B6F4 /* NAParentalGateAlertDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5CC45FD717F992BA00E4B6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CC45FF517F992BA00E4B6F4 /* Images.xcassets in Resources */,
+				5CF9495C17FDA0240029AC0A /* NAParentalGateAlert.bundle in Resources */,
+				5C839FFC17FB0B7500F35979 /* NAViewController.xib in Resources */,
+				5C9E321917FB0723006E1B22 /* NAGatedVC.xib in Resources */,
+				5C83A00417FB0B7500F35979 /* NAViewController.xib in Resources */,
+				5C5C0F0B17FEE3AC00D00BE5 /* LICENSE in Resources */,
+				5C83A00817FB0B7500F35979 /* NAGatedVC.xib in Resources */,
+				5C839FFA17FB0B7500F35979 /* NAGatedVC.xib in Resources */,
+				5C83A00617FB0B7500F35979 /* NAGatedVC.strings in Resources */,
+				5C839FF817FB0B7500F35979 /* NAGatedVC.strings in Resources */,
+				5C83A00217FB0B7500F35979 /* NAViewController.strings in Resources */,
+				5C5C0F0917FEE39C00D00BE5 /* README.md in Resources */,
+				5C83A00017FB0B7500F35979 /* NAGatedVC.xib in Resources */,
+				5C839FFE17FB0B7500F35979 /* NAGatedVC.strings in Resources */,
+				5C83A00C17FB0B7500F35979 /* NAViewController.xib in Resources */,
+				5C83A00A17FB0B7500F35979 /* NAViewController.strings in Resources */,
+				5C4A877417FAF60700E88829 /* NAViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC45FF817F992BA00E4B6F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C83A00B17FB0B7500F35979 /* NAViewController.strings in Resources */,
+				5C9E321A17FB0723006E1B22 /* NAGatedVC.xib in Resources */,
+				5C839FFF17FB0B7500F35979 /* NAGatedVC.strings in Resources */,
+				5C839FFB17FB0B7500F35979 /* NAGatedVC.xib in Resources */,
+				5C83A00917FB0B7500F35979 /* NAGatedVC.xib in Resources */,
+				5C83A00117FB0B7500F35979 /* NAGatedVC.xib in Resources */,
+				5CC4600617F992BA00E4B6F4 /* InfoPlist.strings in Resources */,
+				5C839FFD17FB0B7500F35979 /* NAViewController.xib in Resources */,
+				5C839FF917FB0B7500F35979 /* NAGatedVC.strings in Resources */,
+				5CF9495D17FDA0240029AC0A /* NAParentalGateAlert.bundle in Resources */,
+				5C83A00D17FB0B7500F35979 /* NAViewController.xib in Resources */,
+				5C83A00517FB0B7500F35979 /* NAViewController.xib in Resources */,
+				5C83A00717FB0B7500F35979 /* NAGatedVC.strings in Resources */,
+				5C83A00317FB0B7500F35979 /* NAViewController.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CC45FD517F992BA00E4B6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCAC12117F9A1070012CA4B /* NAGatedVC.m in Sources */,
+				5CC45FF317F992BA00E4B6F4 /* NAViewController.m in Sources */,
+				5CC45FE917F992BA00E4B6F4 /* main.m in Sources */,
+				5CF9495E17FDA0240029AC0A /* NAParentalGateAlert.m in Sources */,
+				5CC45FED17F992BA00E4B6F4 /* NAAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CC45FF617F992BA00E4B6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCAC12217F9A1070012CA4B /* NAGatedVC.m in Sources */,
+				5CF9495F17FDA0240029AC0A /* NAParentalGateAlert.m in Sources */,
+				5CC4600817F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5CC4600017F992BA00E4B6F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CC45FD817F992BA00E4B6F4 /* NAParentalGateAlertDemo */;
+			targetProxy = 5CC45FFF17F992BA00E4B6F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C4A877617FAF60700E88829 /* NAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C4A877517FAF60700E88829 /* en */,
+				5C4A877717FAF60C00E88829 /* es */,
+				5C4A877817FAF60D00E88829 /* fr */,
+			);
+			name = NAViewController.xib;
+			sourceTree = "<group>";
+		};
+		5C839FE017FB0B7500F35979 /* NAGatedVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FE117FB0B7500F35979 /* en */,
+			);
+			name = NAGatedVC.strings;
+			sourceTree = "<group>";
+		};
+		5C839FE217FB0B7500F35979 /* NAGatedVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FE317FB0B7500F35979 /* en */,
+			);
+			name = NAGatedVC.xib;
+			sourceTree = "<group>";
+		};
+		5C839FE417FB0B7500F35979 /* NAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FE517FB0B7500F35979 /* en */,
+			);
+			name = NAViewController.xib;
+			sourceTree = "<group>";
+		};
+		5C839FE717FB0B7500F35979 /* NAGatedVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FE817FB0B7500F35979 /* es */,
+			);
+			name = NAGatedVC.strings;
+			sourceTree = "<group>";
+		};
+		5C839FE917FB0B7500F35979 /* NAGatedVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FEA17FB0B7500F35979 /* es */,
+			);
+			name = NAGatedVC.xib;
+			sourceTree = "<group>";
+		};
+		5C839FEB17FB0B7500F35979 /* NAViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FEC17FB0B7500F35979 /* es */,
+			);
+			name = NAViewController.strings;
+			sourceTree = "<group>";
+		};
+		5C839FED17FB0B7500F35979 /* NAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FEE17FB0B7500F35979 /* es */,
+			);
+			name = NAViewController.xib;
+			sourceTree = "<group>";
+		};
+		5C839FF017FB0B7500F35979 /* NAGatedVC.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FF117FB0B7500F35979 /* fr */,
+			);
+			name = NAGatedVC.strings;
+			sourceTree = "<group>";
+		};
+		5C839FF217FB0B7500F35979 /* NAGatedVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FF317FB0B7500F35979 /* fr */,
+			);
+			name = NAGatedVC.xib;
+			sourceTree = "<group>";
+		};
+		5C839FF417FB0B7500F35979 /* NAViewController.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FF517FB0B7500F35979 /* fr */,
+			);
+			name = NAViewController.strings;
+			sourceTree = "<group>";
+		};
+		5C839FF617FB0B7500F35979 /* NAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C839FF717FB0B7500F35979 /* fr */,
+			);
+			name = NAViewController.xib;
+			sourceTree = "<group>";
+		};
+		5C9E321C17FB0723006E1B22 /* NAGatedVC.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9E321B17FB0723006E1B22 /* en */,
+				5C9E321D17FB0725006E1B22 /* es */,
+				5C9E321E17FB0726006E1B22 /* fr */,
+			);
+			name = NAGatedVC.xib;
+			sourceTree = "<group>";
+		};
+		5CC4600417F992BA00E4B6F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5CC4600517F992BA00E4B6F4 /* en */,
+				5C1E72A417FA3E86003D88B1 /* fr */,
+				5C1E72A617FA3E8E003D88B1 /* es */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5CC4600917F992BA00E4B6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5CC4600A17F992BA00E4B6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5CC4600C17F992BA00E4B6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAParentalGateAlertDemo/NAParentalGateAlertDemo-Prefix.pch";
+				INFOPLIST_FILE = "NAParentalGateAlertDemo/NAParentalGateAlertDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5CC4600D17F992BA00E4B6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAParentalGateAlertDemo/NAParentalGateAlertDemo-Prefix.pch";
+				INFOPLIST_FILE = "NAParentalGateAlertDemo/NAParentalGateAlertDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5CC4600F17F992BA00E4B6F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NAParentalGateAlertDemo.app/NAParentalGateAlertDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAParentalGateAlertDemo/NAParentalGateAlertDemo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NAParentalGateAlertDemoTests/NAParentalGateAlertDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5CC4601017F992BA00E4B6F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NAParentalGateAlertDemo.app/NAParentalGateAlertDemo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NAParentalGateAlertDemo/NAParentalGateAlertDemo-Prefix.pch";
+				INFOPLIST_FILE = "NAParentalGateAlertDemoTests/NAParentalGateAlertDemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CC45FD417F992B900E4B6F4 /* Build configuration list for PBXProject "NAParentalGateAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC4600917F992BA00E4B6F4 /* Debug */,
+				5CC4600A17F992BA00E4B6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC4600B17F992BA00E4B6F4 /* Build configuration list for PBXNativeTarget "NAParentalGateAlertDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC4600C17F992BA00E4B6F4 /* Debug */,
+				5CC4600D17F992BA00E4B6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CC4600E17F992BA00E4B6F4 /* Build configuration list for PBXNativeTarget "NAParentalGateAlertDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CC4600F17F992BA00E4B6F4 /* Debug */,
+				5CC4601017F992BA00E4B6F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CC45FD117F992B900E4B6F4 /* Project object */;
+}
