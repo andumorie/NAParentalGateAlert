@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		5C4A877417FAF60700E88829 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C4A877617FAF60700E88829 /* NAViewController.xib */; };
-		5C5C0F0917FEE39C00D00BE5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5C5C0F0817FEE39C00D00BE5 /* README.md */; };
-		5C5C0F0B17FEE3AC00D00BE5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5C5C0F0A17FEE3AC00D00BE5 /* LICENSE */; };
 		5C839FF817FB0B7500F35979 /* NAGatedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE017FB0B7500F35979 /* NAGatedVC.strings */; };
 		5C839FF917FB0B7500F35979 /* NAGatedVC.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE017FB0B7500F35979 /* NAGatedVC.strings */; };
 		5C839FFA17FB0B7500F35979 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FE217FB0B7500F35979 /* NAGatedVC.xib */; };
@@ -34,6 +32,14 @@
 		5C83A00D17FB0B7500F35979 /* NAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C839FF617FB0B7500F35979 /* NAViewController.xib */; };
 		5C9E321917FB0723006E1B22 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E321C17FB0723006E1B22 /* NAGatedVC.xib */; };
 		5C9E321A17FB0723006E1B22 /* NAGatedVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E321C17FB0723006E1B22 /* NAGatedVC.xib */; };
+		5CC254B5180BA00D008FE4A9 /* NAParentalGateAlert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CC254B2180BA00D008FE4A9 /* NAParentalGateAlert.bundle */; };
+		5CC254B6180BA00D008FE4A9 /* NAParentalGateAlert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CC254B2180BA00D008FE4A9 /* NAParentalGateAlert.bundle */; };
+		5CC254B7180BA00D008FE4A9 /* NAParentalGateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC254B4180BA00D008FE4A9 /* NAParentalGateAlert.m */; };
+		5CC254B8180BA00D008FE4A9 /* NAParentalGateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC254B4180BA00D008FE4A9 /* NAParentalGateAlert.m */; };
+		5CC254BB180BA01D008FE4A9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5CC254B9180BA01D008FE4A9 /* LICENSE */; };
+		5CC254BC180BA01D008FE4A9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 5CC254B9180BA01D008FE4A9 /* LICENSE */; };
+		5CC254BD180BA01D008FE4A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CC254BA180BA01D008FE4A9 /* README.md */; };
+		5CC254BE180BA01D008FE4A9 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5CC254BA180BA01D008FE4A9 /* README.md */; };
 		5CC45FDD17F992BA00E4B6F4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FDC17F992BA00E4B6F4 /* Foundation.framework */; };
 		5CC45FDF17F992BA00E4B6F4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FDE17F992BA00E4B6F4 /* CoreGraphics.framework */; };
 		5CC45FE117F992BA00E4B6F4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CC45FE017F992BA00E4B6F4 /* UIKit.framework */; };
@@ -48,10 +54,6 @@
 		5CC4600817F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CC4600717F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.m */; };
 		5CCAC12117F9A1070012CA4B /* NAGatedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAC11F17F9A1070012CA4B /* NAGatedVC.m */; };
 		5CCAC12217F9A1070012CA4B /* NAGatedVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CCAC11F17F9A1070012CA4B /* NAGatedVC.m */; };
-		5CF9495C17FDA0240029AC0A /* NAParentalGateAlert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CF9495717FDA0240029AC0A /* NAParentalGateAlert.bundle */; };
-		5CF9495D17FDA0240029AC0A /* NAParentalGateAlert.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5CF9495717FDA0240029AC0A /* NAParentalGateAlert.bundle */; };
-		5CF9495E17FDA0240029AC0A /* NAParentalGateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF9495917FDA0240029AC0A /* NAParentalGateAlert.m */; };
-		5CF9495F17FDA0240029AC0A /* NAParentalGateAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CF9495917FDA0240029AC0A /* NAParentalGateAlert.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +72,6 @@
 		5C4A877517FAF60700E88829 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NAViewController.xib; sourceTree = "<group>"; };
 		5C4A877717FAF60C00E88829 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/NAViewController.xib; sourceTree = "<group>"; };
 		5C4A877817FAF60D00E88829 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/NAViewController.xib; sourceTree = "<group>"; };
-		5C5C0F0817FEE39C00D00BE5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		5C5C0F0A17FEE3AC00D00BE5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		5C839FE117FB0B7500F35979 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = NAGatedVC.strings; sourceTree = "<group>"; };
 		5C839FE317FB0B7500F35979 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = NAGatedVC.xib; sourceTree = "<group>"; };
 		5C839FE517FB0B7500F35979 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = NAViewController.xib; sourceTree = "<group>"; };
@@ -86,6 +86,11 @@
 		5C9E321B17FB0723006E1B22 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NAGatedVC.xib; sourceTree = "<group>"; };
 		5C9E321D17FB0725006E1B22 /* es */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = es; path = es.lproj/NAGatedVC.xib; sourceTree = "<group>"; };
 		5C9E321E17FB0726006E1B22 /* fr */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = fr; path = fr.lproj/NAGatedVC.xib; sourceTree = "<group>"; };
+		5CC254B2180BA00D008FE4A9 /* NAParentalGateAlert.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = NAParentalGateAlert.bundle; path = ../../NAParentalGateAlert/NAParentalGateAlert.bundle; sourceTree = "<group>"; };
+		5CC254B3180BA00D008FE4A9 /* NAParentalGateAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NAParentalGateAlert.h; path = ../../NAParentalGateAlert/NAParentalGateAlert.h; sourceTree = "<group>"; };
+		5CC254B4180BA00D008FE4A9 /* NAParentalGateAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NAParentalGateAlert.m; path = ../../NAParentalGateAlert/NAParentalGateAlert.m; sourceTree = "<group>"; };
+		5CC254B9180BA01D008FE4A9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		5CC254BA180BA01D008FE4A9 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		5CC45FD917F992BA00E4B6F4 /* NAParentalGateAlertDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NAParentalGateAlertDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CC45FDC17F992BA00E4B6F4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5CC45FDE17F992BA00E4B6F4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -106,9 +111,6 @@
 		5CCAC11E17F9A1070012CA4B /* NAGatedVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAGatedVC.h; sourceTree = "<group>"; };
 		5CCAC11F17F9A1070012CA4B /* NAGatedVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAGatedVC.m; sourceTree = "<group>"; };
 		5CEA639C17FD9557009B6467 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
-		5CF9495717FDA0240029AC0A /* NAParentalGateAlert.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = NAParentalGateAlert.bundle; sourceTree = "<group>"; };
-		5CF9495817FDA0240029AC0A /* NAParentalGateAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NAParentalGateAlert.h; sourceTree = "<group>"; };
-		5CF9495917FDA0240029AC0A /* NAParentalGateAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NAParentalGateAlert.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,12 +169,25 @@
 			path = fr.lproj;
 			sourceTree = "<group>";
 		};
+		5CC254B1180B9FEA008FE4A9 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				5CC254B2180BA00D008FE4A9 /* NAParentalGateAlert.bundle */,
+				5CC254B3180BA00D008FE4A9 /* NAParentalGateAlert.h */,
+				5CC254B4180BA00D008FE4A9 /* NAParentalGateAlert.m */,
+				5CC254B9180BA01D008FE4A9 /* LICENSE */,
+				5CC254BA180BA01D008FE4A9 /* README.md */,
+			);
+			name = libs;
+			path = NAParentalGateAlertDemoTests;
+			sourceTree = "<group>";
+		};
 		5CC45FD017F992B900E4B6F4 = {
 			isa = PBXGroup;
 			children = (
 				5CC45FE217F992BA00E4B6F4 /* NAParentalGateAlertDemo */,
-				5CC4601117F9932600E4B6F4 /* libs */,
 				5CC4600117F992BA00E4B6F4 /* NAParentalGateAlertDemoTests */,
+				5CC254B1180B9FEA008FE4A9 /* libs */,
 				5CC45FDB17F992BA00E4B6F4 /* Frameworks */,
 				5CC45FDA17F992BA00E4B6F4 /* Products */,
 			);
@@ -245,27 +260,6 @@
 				5CC4600417F992BA00E4B6F4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		5CC4601117F9932600E4B6F4 /* libs */ = {
-			isa = PBXGroup;
-			children = (
-				5CF9495517FDA0240029AC0A /* NAParentalGateAlert */,
-			);
-			path = libs;
-			sourceTree = "<group>";
-		};
-		5CF9495517FDA0240029AC0A /* NAParentalGateAlert */ = {
-			isa = PBXGroup;
-			children = (
-				5C5C0F0A17FEE3AC00D00BE5 /* LICENSE */,
-				5C5C0F0817FEE39C00D00BE5 /* README.md */,
-				5CF9495717FDA0240029AC0A /* NAParentalGateAlert.bundle */,
-				5CF9495817FDA0240029AC0A /* NAParentalGateAlert.h */,
-				5CF9495917FDA0240029AC0A /* NAParentalGateAlert.m */,
-			);
-			name = NAParentalGateAlert;
-			path = ../../NAParentalGateAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,18 +342,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CC45FF517F992BA00E4B6F4 /* Images.xcassets in Resources */,
-				5CF9495C17FDA0240029AC0A /* NAParentalGateAlert.bundle in Resources */,
 				5C839FFC17FB0B7500F35979 /* NAViewController.xib in Resources */,
 				5C9E321917FB0723006E1B22 /* NAGatedVC.xib in Resources */,
 				5C83A00417FB0B7500F35979 /* NAViewController.xib in Resources */,
-				5C5C0F0B17FEE3AC00D00BE5 /* LICENSE in Resources */,
 				5C83A00817FB0B7500F35979 /* NAGatedVC.xib in Resources */,
 				5C839FFA17FB0B7500F35979 /* NAGatedVC.xib in Resources */,
 				5C83A00617FB0B7500F35979 /* NAGatedVC.strings in Resources */,
 				5C839FF817FB0B7500F35979 /* NAGatedVC.strings in Resources */,
 				5C83A00217FB0B7500F35979 /* NAViewController.strings in Resources */,
-				5C5C0F0917FEE39C00D00BE5 /* README.md in Resources */,
 				5C83A00017FB0B7500F35979 /* NAGatedVC.xib in Resources */,
+				5CC254BB180BA01D008FE4A9 /* LICENSE in Resources */,
+				5CC254BD180BA01D008FE4A9 /* README.md in Resources */,
+				5CC254B5180BA00D008FE4A9 /* NAParentalGateAlert.bundle in Resources */,
 				5C839FFE17FB0B7500F35979 /* NAGatedVC.strings in Resources */,
 				5C83A00C17FB0B7500F35979 /* NAViewController.xib in Resources */,
 				5C83A00A17FB0B7500F35979 /* NAViewController.strings in Resources */,
@@ -377,10 +371,12 @@
 				5C839FFB17FB0B7500F35979 /* NAGatedVC.xib in Resources */,
 				5C83A00917FB0B7500F35979 /* NAGatedVC.xib in Resources */,
 				5C83A00117FB0B7500F35979 /* NAGatedVC.xib in Resources */,
+				5CC254BE180BA01D008FE4A9 /* README.md in Resources */,
 				5CC4600617F992BA00E4B6F4 /* InfoPlist.strings in Resources */,
+				5CC254B6180BA00D008FE4A9 /* NAParentalGateAlert.bundle in Resources */,
 				5C839FFD17FB0B7500F35979 /* NAViewController.xib in Resources */,
+				5CC254BC180BA01D008FE4A9 /* LICENSE in Resources */,
 				5C839FF917FB0B7500F35979 /* NAGatedVC.strings in Resources */,
-				5CF9495D17FDA0240029AC0A /* NAParentalGateAlert.bundle in Resources */,
 				5C83A00D17FB0B7500F35979 /* NAViewController.xib in Resources */,
 				5C83A00517FB0B7500F35979 /* NAViewController.xib in Resources */,
 				5C83A00717FB0B7500F35979 /* NAGatedVC.strings in Resources */,
@@ -398,7 +394,7 @@
 				5CCAC12117F9A1070012CA4B /* NAGatedVC.m in Sources */,
 				5CC45FF317F992BA00E4B6F4 /* NAViewController.m in Sources */,
 				5CC45FE917F992BA00E4B6F4 /* main.m in Sources */,
-				5CF9495E17FDA0240029AC0A /* NAParentalGateAlert.m in Sources */,
+				5CC254B7180BA00D008FE4A9 /* NAParentalGateAlert.m in Sources */,
 				5CC45FED17F992BA00E4B6F4 /* NAAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,7 +404,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5CCAC12217F9A1070012CA4B /* NAGatedVC.m in Sources */,
-				5CF9495F17FDA0240029AC0A /* NAParentalGateAlert.m in Sources */,
+				5CC254B8180BA00D008FE4A9 /* NAParentalGateAlert.m in Sources */,
 				5CC4600817F992BA00E4B6F4 /* NAParentalGateAlertDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -578,7 +574,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -611,7 +612,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LIBRARY_SEARCH_PATHS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};

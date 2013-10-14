@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>1AF1F0DF-0318-458E-BF50-C3FA379A4FA3</string>
+	<string>1C58ECA3-4998-413F-A6A0-D1BC06B109CB</string>
 	<key>IDESourceControlProjectName</key>
 	<string>NAParentalGateAlertDemo</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>8E2C6A94-74F3-4A23-9A76-2A2CFEB632CC</key>
-		<string>ssh://github.com/n8tr/NAParentalGateAlert.git</string>
+		<key>4F3C7562-4B10-42CB-B015-FD18FA42B685</key>
+		<string>ssh://github.com/natrosoft/NAParentalGateAlert.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>NAParentalGateAlertDemo/NAParentalGateAlertDemo.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>8E2C6A94-74F3-4A23-9A76-2A2CFEB632CC</key>
+		<key>4F3C7562-4B10-42CB-B015-FD18FA42B685</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/n8tr/NAParentalGateAlert.git</string>
+	<string>ssh://github.com/natrosoft/NAParentalGateAlert.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8E2C6A94-74F3-4A23-9A76-2A2CFEB632CC</string>
+	<string>4F3C7562-4B10-42CB-B015-FD18FA42B685</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8E2C6A94-74F3-4A23-9A76-2A2CFEB632CC</string>
+			<string>4F3C7562-4B10-42CB-B015-FD18FA42B685</string>
 			<key>IDESourceControlWCCName</key>
-			<string>NAParentalGateAlert</string>
+			<string>NAParentalGateAlert_natrosoft</string>
 		</dict>
 	</array>
 </dict>
