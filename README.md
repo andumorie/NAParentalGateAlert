@@ -26,6 +26,5 @@ Oh and I like Franziskaner Weissbier, Shiner Bock, and Hoegaarden :)
 
 
 
-//---Link to githalytics.com to see page views----------------------------------------------------------------------//
+
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/4a4dd3bb4aac153bc616fd57f4ac276b "githalytics.com")](http://githalytics.com/natrosoft/NAParentalGateAlert)
-//-----------------------------------------------------------------------------------------------------------------//
